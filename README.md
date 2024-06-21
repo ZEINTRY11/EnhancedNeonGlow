@@ -5,36 +5,36 @@ A collection of vibrant neon themes for Discord, created by ZEIN_TRY.
 ## Themes
 
 ### 1. Blue Neon Glow
-![Blue Neon Glow Preview](https://example.com/blue-neon-preview.png)
+![Blue Neon Glow Preview](https://github.com/ZEINTRY11/DiscordNeonThemes/blob/main/assets/BlueNeonGlow.png)
 [Download Blue Neon Glow Theme](https://github.com/ZEINTRY11/DiscordNeonThemes/main/BlueNeonGlow.theme.css)
 
 ### 2. Purple Neon Glow
-![Purple Neon Glow Preview](https://example.com/purple-neon-preview.png)
+![Purple Neon Glow Preview](https://github.com/ZEINTRY11/DiscordNeonThemes/blob/main/assets/PurpleNeonGlow.png)
 [Download Purple Neon Glow Theme](https://raw.githubusercontent.com/ZEINTRY11/DiscordNeonThemes/main/PurpleNeonGlow.theme.css)
 
 ### 3. Green Neon Glow
-![Green Neon Glow Preview](https://example.com/green-neon-preview.png)
+![Green Neon Glow Preview](https://github.com/ZEINTRY11/DiscordNeonThemes/blob/main/assets/GreenNeonGlow.png)
 [Download Green Neon Glow Theme](https://github.com/ZEINTRY11/DiscordNeonThemes/main/GreenNeonGlow.theme.css)
 
 ### 4. Red Neon Glow
-![Red Neon Glow Preview](https://example.com/red-neon-preview.png)
+![Red Neon Glow Preview](https://github.com/ZEINTRY11/DiscordNeonThemes/blob/main/assets/RedNeonGlow.png)
 [Download Red Neon Glow Theme](https://github.com/ZEINTRY11/DiscordNeonThemes/main/RedNeonGlow.theme.css)
 
 ### 5. Yellow Neon Glow
-![Yellow Neon Glow Preview](https://example.com/yellow-neon-preview.png)
+![Yellow Neon Glow Preview](https://github.com/ZEINTRY11/DiscordNeonThemes/blob/main/assets/YellowNeonGlow.png)
 [Download Yellow Neon Glow Theme](https://github.com/ZEINTRY11/DiscordNeonThemes/main/YellowNeonGlow.theme.css)
 
 ### 6. Brown Neon Glow
-![Brown Neon Glow Preview](https://example.com/brown-neon-preview.png)
+![Brown Neon Glow Preview](https://github.com/ZEINTRY11/DiscordNeonThemes/blob/main/assets/BrownNeonGlow.png)
 [Download Brown Neon Glow Theme](https://github.com/ZEINTRY11/DiscordNeonThemes/main/BrownNeonGlow.theme.css)
 
 ### 7. Pink Neon Glow
-![Pink Neon Glow Preview](https://example.com/pink-neon-preview.png)
-[Download Blue Neon Glow Theme](https://github.com/ZEINTRY11/DiscordNeonThemes/main/PinkNeonGlow.theme.css)
+![Pink Neon Glow Preview](https://github.com/ZEINTRY11/DiscordNeonThemes/blob/main/assets/PinkNeonGlow.png)
+[Download Pink Neon Glow Theme](https://github.com/ZEINTRY11/DiscordNeonThemes/main/PinkNeonGlow.theme.css)
 
 ### 8. Orange Neon Glow
-![Orange Neon Glow Preview](https://example.com/orange-neon-preview.png)
-[Download Blue Neon Glow Theme](https://github.com/ZEINTRY11/DiscordNeonThemes/main/OrangeNeonGlow.theme.css)
+![Orange Neon Glow Preview](https://github.com/ZEINTRY11/DiscordNeonThemes/blob/main/assets/OrangeNeonGlow.png)
+[Download Orange Neon Glow Theme](https://github.com/ZEINTRY11/DiscordNeonThemes/main/OrangeNeonGlow.theme.css)
 
 ## Installation
 
