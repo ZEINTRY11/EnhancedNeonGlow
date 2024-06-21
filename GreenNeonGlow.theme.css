@@ -1,0 +1,28 @@
+/**
+ * @name GreenNeonGlow
+ * @author ZEIN_TRY
+ * @version 1.0.1
+ * @description A green neon-themed Discord style
+ * @authorId 508863359777505290
+ */
+
+ :root {
+    --neon-dark-green: #008000;
+    --neon-light-green: #39FF14;
+    
+    --background-primary: #000000;
+    --background-secondary: #0a0a0a;
+    --background-tertiary: #141414;
+    --background-secondary-alt: #111010;
+    
+    --text-normal: #ffffff;
+    --text-muted: #888888;
+    --header-primary: var(--neon-light-green);
+    --header-secondary: var(--neon-dark-green);
+    
+    --interactive-normal: var(--neon-light-green);
+    --interactive-hover: var(--neon-light-green);
+    --interactive-active: var(--neon-light-green);
+    
+    --channeltextarea-background: var(--background-secondary);
+}

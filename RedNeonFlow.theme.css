@@ -1,0 +1,28 @@
+/**
+ * @name RedNeonGlow
+ * @author ZEIN_TRY
+ * @version 1.0.1
+ * @description A red neon-themed Discord style
+ * @authorId 508863359777505290
+ */
+
+ :root {
+    --neon-dark-red: #8B0000;
+    --neon-light-red: #FF3131;
+    
+    --background-primary: #000000;
+    --background-secondary: #0a0a0a;
+    --background-tertiary: #141414;
+    --background-secondary-alt: #111010;
+    
+    --text-normal: #ffffff;
+    --text-muted: #888888;
+    --header-primary: var(--neon-light-red);
+    --header-secondary: var(--neon-dark-red);
+    
+    --interactive-normal: var(--neon-light-red);
+    --interactive-hover: var(--neon-light-red);
+    --interactive-active: var(--neon-light-red);
+    
+    --channeltextarea-background: var(--background-secondary);
+}

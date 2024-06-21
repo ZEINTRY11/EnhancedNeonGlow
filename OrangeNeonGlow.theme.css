@@ -1,0 +1,28 @@
+/**
+ * @name OrangeNeonGlow
+ * @author ZEIN_TRY
+ * @version 1.0.4
+ * @description An orange neon-themed Discord style
+ * @authorId 508863359777505290
+ */
+
+ :root {
+    --neon-dark-orange: #d48210;
+    --neon-light-orange: #FFB74D;
+    
+    --background-primary: #000000;
+    --background-secondary: #0a0a0a;
+    --background-tertiary: #141414;
+    --background-secondary-alt: #111010;
+    
+    --text-normal: #ffffff;
+    --text-muted: #888888;
+    --header-primary: #FFB74D;
+    --header-secondary: #E65100;
+    
+    --interactive-normal: #FFB74D;
+    --interactive-hover: #FFB74D;
+    --interactive-active: #FFB74D;
+    
+    --channeltextarea-background: #0a0a0a;
+}

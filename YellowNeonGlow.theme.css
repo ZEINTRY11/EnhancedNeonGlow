@@ -1,0 +1,28 @@
+/**
+ * @name YellowNeonGlow
+ * @author ZEIN_TRY
+ * @version 1.0.1
+ * @description A yellow neon-themed Discord style
+ * @authorId 508863359777505290
+ */
+
+ :root {
+    --neon-dark-yellow: #CCAA00;
+    --neon-light-yellow: #FFFF00;
+    
+    --background-primary: #000000;
+    --background-secondary: #0a0a0a;
+    --background-tertiary: #141414;
+    --background-secondary-alt: #111010;
+    
+    --text-normal: #ffffff;
+    --text-muted: #888888;
+    --header-primary: var(--neon-light-yellow);
+    --header-secondary: var(--neon-dark-yellow);
+    
+    --interactive-normal: var(--neon-light-yellow);
+    --interactive-hover: var(--neon-light-yellow);
+    --interactive-active: var(--neon-light-yellow);
+    
+    --channeltextarea-background: var(--background-secondary);
+}
