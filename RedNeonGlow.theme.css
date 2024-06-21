@@ -1,5 +1,5 @@
 /**
- * @name RedNeonGlow
+ * @name EnhancedRedNeonGlow
  * @author ZEIN_TRY
  * @version 1.0.1
  * @description A red neon-themed Discord style
@@ -11,10 +11,10 @@
     --neon-dark-red: #8B0000;
     --neon-light-red: #FF3131;
     
-    --background-primary: #000000;
-    --background-secondary: #0a0a0a;
-    --background-tertiary: #141414;
-    --background-secondary-alt: #111010;
+    --background-primary: ;
+    --background-secondary: ;
+    --background-tertiary: ;
+    --background-secondary-alt: ;
     
     --text-normal: #ffffff;
     --text-muted: #888888;
@@ -26,4 +26,89 @@
     --interactive-active: var(--neon-light-red);
     
     --channeltextarea-background: var(--background-secondary);
+}
+
+.appMount_ea7e65::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.appMount_ea7e65 {
+    position: relative;
+    overflow: hidden;
+}
+
+.layers-3iHuyZ::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.978);
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}
+
+/* Additional glass effect for other elements */
+.container-2lgZY8, .channels-Ie2l6A, .chat-3bRxxu {
+    background-color: rgba(255, 255, 255, 0.964) !important;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.wrapper_fea3ef, .scroller_c43953, .chatContent_a7d72e, .members_cbd271, .sidebar_a4d4d9, .form_a7d72e {
+    box-shadow: 0 0 10px hsl(0, 100%, 50%);
+}
+
+.message_d5deea:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
+
+* {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+:root {
+    --neon-red-100: hsl(0, 100%, 98%);
+    --neon-red-200: hsl(0, 100%, 95%);
+    --neon-red-300: hsl(0, 100%, 90%);
+    --neon-red-400: hsl(0, 100%, 80%);
+    --neon-red-500: hsl(0, 100%, 70%);
+    --neon-red-600: hsl(0, 100%, 60%);
+    --neon-red-700: hsl(0, 100%, 50%);
+    --neon-red-800: hsl(0, 100%, 40%);
+    --neon-red-900: hsl(0, 100%, 30%);
+}
+
+.header-2V-4Sw, .name-1jkAdW, .icon-22AiRD {
+    color: var(--neon-red-300);
+}
+
+.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {
+    background-color: var(--neon-red-900);
+}
+
+.item-2hkk8m {
+    background-color: var(--neon-red-700);
+}
+
+.button-1YfofB.buttonColor-7qQbGO, .button-1YfofB .buttonColor-7qQbGO {
+    background-color: var(--neon-red-600);
+    color: var(--neon-red-100);
+}
+
+.button-1YfofB.buttonColor-7qQbGO:hover, .button-1YfofB .buttonColor-7qQbGO:hover {
+    background-color: var(--neon-red-500);
 }
