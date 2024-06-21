@@ -4,8 +4,10 @@
  * @description Replies to messages when they are double-clicked and edit the message if it's yours.
  * @author ZEIN_TRY
  * @authorId 903955199469695037
- * @website https://github.com/ZEINTRY11/DoubleClickReplyOrEdit
- * @source https://raw.githubusercontent.com/ZEINTRY11/DoubleClickReplyOrEdit/main/DoubleClickReplyOrEdit.plugin.js
+ * @website https://github.com/ZEINTRY11
+ * @invite gYWSbkhcDy
+ * @source https://github.com/ZEINTRY11/DoubleClickReplyOrEdit
+ * @updateUrl https://raw.githubusercontent.com/ZEINTRY11/DoubleClickReplyOrEdit/main/DoubleClickReplyOrEdit.plugin.js
  */
 /*@cc_on
 @if (@_jscript)
