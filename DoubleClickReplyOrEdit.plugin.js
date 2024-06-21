@@ -59,10 +59,12 @@ function pluginLog(msg) {
   }
 module.exports = class DoubleClickReply {
     start() {
+        pluginLog("started!")
         this.addDoubleClickListener();
     }
 
     stop() {
+        pluginLog("stoped!")
         this.removeDoubleClickListener();
     }
 
