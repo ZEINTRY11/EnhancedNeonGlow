@@ -49,11 +49,6 @@ Simply double-click on any message in a Discord chat:
 ## Support
 
 Having issues or want to suggest features? Join our Discord server or open an issue on GitHub!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 <p align="center">
