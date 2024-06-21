@@ -1,56 +1,50 @@
-# DoubleClickReplyOrEdit
+# Discord Neon Themes Collection
 
-<p align="center">
-  <img src="https://github.com/ZEINTRY11/DoubleClickReplyOrEdit/blob/main/assets/DoubClickReplyOrEdit.png?raw=true" alt="DoubleClickReplyOrEdit plugin screenshot" width="500"/>
-</p>
+A collection of vibrant neon themes for Discord, created by ZEIN_TRY.
 
-<p align="center">
-  <a href="https://betterdiscord.app/">
-    <img src="https://img.shields.io/badge/BetterDiscord-Plugin-blue?style=for-the-badge&logo=discord" alt="BetterDiscord Plugin"/>
-  </a>
-  <a href="https://discord.gg/gYWSbkhcDy">
-    <img src="https://img.shields.io/badge/Discord-Join%20Server-7289DA?style=for-the-badge&logo=discord" alt="Join Discord Server"/>
-  </a>
-</p>
+## Themes
 
-## About
+### 1. Blue Neon Glow
+![Blue Neon Glow Preview](https://example.com/blue-neon-preview.png)
+[Download Blue Neon Glow Theme](https://raw.githubusercontent.com/ZEINTRY11/DiscordNeonThemes/main/BlueNeonGlow.theme.css)
 
-DoubleClickReplyOrEdit is a **BetterDiscord** plugin created by *ZEIN_TRY* that enhances your Discord experience. With a simple double-click, you can:
+### 2. Purple Neon Glow
+![Purple Neon Glow Preview](https://example.com/purple-neon-preview.png)
+[Download Purple Neon Glow Theme](https://raw.githubusercontent.com/ZEINTRY11/DiscordNeonThemes/main/PurpleNeonGlow.theme.css)
 
-- **Reply** to messages not sent by you
-- **Edit** your own messages
+### 3. Green Neon Glow
+![Green Neon Glow Preview](https://example.com/green-neon-preview.png)
+[Download Green Neon Glow Theme](https://raw.githubusercontent.com/ZEINTRY11/DiscordNeonThemes/main/GreenNeonGlow.theme.css)
 
-No more fumbling through menus or searching for buttons!
+### 4. Red Neon Glow
+![Red Neon Glow Preview](https://example.com/red-neon-preview.png)
+[Download Red Neon Glow Theme](https://raw.githubusercontent.com/ZEINTRY11/DiscordNeonThemes/main/RedNeonGlow.theme.css)
 
-## Features
+### 5. Yellow Neon Glow
+![Yellow Neon Glow Preview](https://example.com/yellow-neon-preview.png)
+[Download Yellow Neon Glow Theme](https://raw.githubusercontent.com/ZEINTRY11/DiscordNeonThemes/main/YellowNeonGlow.theme.css)
 
-- 🚀 Quick and intuitive double-click action
-- 💬 Instantly reply to others' messages
-- ✏️ Seamlessly edit your own messages
+### 6. Brown Neon Glow
+![Brown Neon Glow Preview](https://example.com/brown-neon-preview.png)
+[Download Brown Neon Glow Theme](https://raw.githubusercontent.com/ZEINTRY11/DiscordNeonThemes/main/BrownNeonGlow.theme.css)
 
 ## Installation
 
-1. Ensure you have [BetterDiscord](https://betterdiscord.app/) installed.
-2. Download the `DoubleClickReplyOrEdit.plugin.js` file.
-3. Move the downloaded file to your BetterDiscord plugins folder.
-4. Enable the plugin in your BetterDiscord settings.
+1. Make sure you have BetterDiscord installed.
+2. Download the theme file you want to use.
+3. Place the downloaded file in your BetterDiscord themes folder:
+   - Windows: `%appdata%\BetterDiscord\themes\`
+   - macOS: `~/Library/Application Support/BetterDiscord/themes/`
+   - Linux: `~/.config/BetterDiscord/themes/`
+4. Open Discord, go to User Settings > Themes, and enable your chosen theme.
 
-## Fastest Installation Method
+## Customization
 
-1. Download the `DoubleClickReplyOrEdit.plugin.js` file.
-2. Open it and it should guide you to it's self installation.
+Each theme file contains variables at the top that you can modify to adjust colors and intensities. Feel free to experiment and create your own unique look!
 
-## Usage
+## Credits
 
-Simply double-click on any message in a Discord chat:
-- If it's someone else's message, you'll start a reply.
-- If it's your own message, you'll enter edit mode.
-
-## Support
-
-Having issues or want to suggest features? Join our Discord server or open an issue on GitHub!
----
-
+Created by ZEIN_TRY
 <p align="center">
   Made with ❤️ by ZEIN_TRY
 </p>
