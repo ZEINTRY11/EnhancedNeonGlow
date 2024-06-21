@@ -12,10 +12,10 @@
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #4CAF50;
+    background-color: #00008b;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px #0000d8;
   }
 
   .button:hover {background-color: #3e8e41}
@@ -31,7 +31,7 @@
   <a href="https://betterdiscord.app/" class="button">
     BetterDiscord Plugin
   </a>
-  <a href="https://discord.gg/YOUR_DISCORD_INVITE_LINK" class="button">
+  <a href="https://discord.gg/gYWSbkhcDy" class="button">
     Join Discord Server
   </a>
 </p>
