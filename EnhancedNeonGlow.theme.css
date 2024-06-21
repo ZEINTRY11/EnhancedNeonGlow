@@ -7,14 +7,9 @@
  * @authorId 508863359777505290
  */
 
-/* Credits for chat bubble
-TheCommieAxolotl - Base code
-Debuggerz1 - Math
- */
-
  :root {
     /* Main theme color - change this to switch themes */
-    --main-color-hue: 30; 
+    --main-color-hue: 190; 
 /*  Color options:
     Red: 0
     Orange: 30
@@ -38,6 +33,7 @@ Debuggerz1 - Math
     --background-secondary: ;
     --background-tertiary: ;
     --background-secondary-alt: ;
+    --bg-overlay-2: ;
     
     --text-normal: #ffffff;
     --text-muted: #888888;
@@ -60,6 +56,9 @@ Debuggerz1 - Math
     --neon-800: hsl(var(--main-color-hue), 100%, 40%);
     --neon-900: hsl(var(--main-color-hue), 100%, 30%);
 }
+
+/* Rest of your CSS remains the same, just replace specific color references with variables */
+
 .appMount_ea7e65::before {
     content: '';
     position: absolute;
@@ -90,6 +89,7 @@ Debuggerz1 - Math
     z-index: -1;
 }
 
+/* Additional glass effect for other elements */
 .container-2lgZY8, .channels-Ie2l6A, .chat-3bRxxu {
     background-color: rgba(0, 0, 0, 0.3) !important;
     backdrop-filter: blur(5px);
@@ -131,6 +131,11 @@ Debuggerz1 - Math
 .button-1YfofB.buttonColor-7qQbGO:hover, .button-1YfofB .buttonColor-7qQbGO:hover {
     background-color: var(--neon-500);
 }
+
+/* Credits for chat bubble
+TheCommieAxolotl - Base code
+Debuggerz1 - Math
+ */
  :root {
     --chat-bubble: 1;
 
