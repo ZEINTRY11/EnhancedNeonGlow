@@ -1,0 +1,232 @@
+/**
+ * @name EnhancedNeonGlow
+ * @author ZEIN_TRY
+ * @version 1.1.0
+ * @description A customizable neon-themed Discord style
+ * @invite gYWSbkhcDy
+ * @authorId 508863359777505290
+ */
+
+/* Credits for chat bubble
+TheCommieAxolotl - Base code
+Debuggerz1 - Math
+ */
+
+ :root {
+    /* Main theme color - change this to switch themes */
+    --main-color-hue: 30; 
+/*  Color options:
+    Red: 0
+    Orange: 30
+    Yellow: 60
+    Lime Green: 90
+    Green: 120
+    Teal: 150
+    Cyan: 180
+    Light Blue: 195
+    Blue: 210
+    Indigo: 240
+    Purple: 270
+    Magenta: 300
+    Pink: 330
+*/
+    
+    --neon-dark: hsl(var(--main-color-hue), 100%, 27%);
+    --neon-light: hsl(var(--main-color-hue), 100%, 60%);
+    
+    --background-primary: ;
+    --background-secondary: ;
+    --background-tertiary: ;
+    --background-secondary-alt: ;
+    
+    --text-normal: #ffffff;
+    --text-muted: #888888;
+    --header-primary: var(--neon-light);
+    --header-secondary: var(--neon-dark);
+    
+    --interactive-normal: var(--neon-light);
+    --interactive-hover: var(--neon-light);
+    --interactive-active: var(--neon-light);
+    
+    --channeltextarea-background: var(--background-secondary);
+
+    --neon-100: hsl(var(--main-color-hue), 100%, 98%);
+    --neon-200: hsl(var(--main-color-hue), 100%, 95%);
+    --neon-300: hsl(var(--main-color-hue), 100%, 90%);
+    --neon-400: hsl(var(--main-color-hue), 100%, 80%);
+    --neon-500: hsl(var(--main-color-hue), 100%, 70%);
+    --neon-600: hsl(var(--main-color-hue), 100%, 60%);
+    --neon-700: hsl(var(--main-color-hue), 100%, 50%);
+    --neon-800: hsl(var(--main-color-hue), 100%, 40%);
+    --neon-900: hsl(var(--main-color-hue), 100%, 30%);
+}
+.appMount_ea7e65::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+.appMount_ea7e65 {
+    position: relative;
+    overflow: hidden;
+}
+
+.layers-3iHuyZ::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}
+
+.container-2lgZY8, .channels-Ie2l6A, .chat-3bRxxu {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(var(--main-color-hue), 100%, 50%, 0.1);
+    border: 1px solid rgba(var(--main-color-hue), 100%, 50%, 0.3);
+}
+
+.wrapper_fea3ef, .scroller_c43953, .chatContent_a7d72e, .members_cbd271, .sidebar_a4d4d9, .form_a7d72e {
+    box-shadow: 0 0 10px var(--neon-light);
+}
+
+.message_d5deea:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
+
+* {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-2V-4Sw, .name-1jkAdW, .icon-22AiRD {
+    color: var(--neon-300);
+}
+
+.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {
+    background-color: var(--neon-900);
+}
+
+.item-2hkk8m {
+    background-color: var(--neon-700);
+}
+
+.button-1YfofB.buttonColor-7qQbGO, .button-1YfofB .buttonColor-7qQbGO {
+    background-color: var(--neon-600);
+    color: var(--neon-100);
+}
+
+.button-1YfofB.buttonColor-7qQbGO:hover, .button-1YfofB .buttonColor-7qQbGO:hover {
+    background-color: var(--neon-500);
+}
+ :root {
+    --chat-bubble: 1;
+
+    --chat-bubble-border-color: var(--neon-light);
+
+    --chat-bubble-max-width: 90%;
+    --chat-bubble-border-radius: 8px;
+
+    --chat-bubble-box-shadow-h-offset: 0;
+    --chat-bubble-box-shadow-v-offset: 4px;
+    --chat-bubble-box-shadow-blur: 4px;
+    
+    --chat-bubble-box-shadow-color-h: 0;
+    --chat-bubble-box-shadow-color-s: 0%;
+    --chat-bubble-box-shadow-color-l: 0%;
+    --chat-bubble-box-shadow-color-a: 0.16;
+}
+
+.groupStart_d5deea.cozyMessage_d5deea>.contents_ec86aa,
+.cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
+    background-size: calc(var(--chat-bubble) * 1px);
+    max-width: calc(100% - ((100% - var(--chat-bubble-max-width)) * var(--chat-bubble)));
+    width: fit-content;
+    margin: 0;
+    padding: calc(7px * var(--chat-bubble)) calc(12px * var(--chat-bubble));
+    border-radius: calc(var(--chat-bubble-border-radius) * var(--chat-bubble));
+    border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
+    box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset) * var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur) * var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a) * var(--chat-bubble)));
+}
+
+.cozyMessage_d5deea.automodMessage_d5deea:before,
+.cozyMessage_d5deea.ephemeral_d5deea:before,
+.cozyMessage_d5deea.mentioned_d5deea:before,
+.cozyMessage_d5deea.replying_d5deea:before {
+    width: calc(2px - (var(--chat-bubble) * 2px));
+}
+
+.groupStart_d5deea.cozyMessage_d5deea.mentioned_d5deea .contents_ec86aa,
+.cozyMessage_d5deea.mentioned_d5deea:not(.groupStart_d5deea) .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
+    background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
+    background-size: calc(var(--chat-bubble) * 1px);
+    border: calc(1px * var(--chat-bubble)) solid var(--info-warning-foreground);
+}
+
+.cozyMessage_d5deea.mentioned_d5deea {
+    background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
+    background-size: calc((1 - var(--chat-bubble)) * 1px);
+}
+
+.groupStart_d5deea.cozyMessage_d5deea.replying_d5deea .contents_ec86aa,
+.cozyMessage_d5deea.replying_d5deea:not(.groupStart_d5deea) .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *),
+.groupStart_d5deea.cozyMessage_d5deea.ephemeral_d5deea .contents_ec86aa,
+.cozyMessage_d5deea.ephemeral_d5deea:not(.groupStart_d5deea) .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
+    background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
+    background-size: calc(var(--chat-bubble) * 1px);
+    border: calc(1px * var(--chat-bubble)) solid var(--brand-experiment);
+}
+
+.cozyMessage_d5deea.replying_d5deea,
+.cozyMessage_d5deea.ephemeral_d5deea {
+    background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
+    background-size: calc((1 - var(--chat-bubble)) * 1px);
+}
+
+.groupStart_d5deea.cozyMessage_d5deea.automodMessage_d5deea .contents_ec86aa,
+.cozyMessage_d5deea.automodMessage_d5deea:not(.groupStart_d5deea) .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
+    background: linear-gradient(var(--background-message-automod), var(--background-message-automod));
+    background-size: calc(var(--chat-bubble) * 1px);
+    border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
+}
+
+.cozyMessage_d5deea.automodMessage_d5deea {
+    background: linear-gradient(var(--background-message-automod), var(--background-message-automod));
+    background-size: calc((1 - var(--chat-bubble)) * 1px);
+}
+
+.groupStart_d5deea.cozyMessage_d5deea.automodMessage_d5deea:hover .contents_ec86aa,
+.cozyMessage_d5deea.automodMessage_d5deea:not(.groupStart_d5deea):hover .contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) {
+    background: linear-gradient(var(--background-message-automod-hover), var(--background-message-automod-hover));
+    background-size: calc(var(--chat-bubble) * 1px);
+    border: calc(1px * var(--chat-bubble)) solid var(--text-danger);
+}
+
+.cozyMessage_d5deea.automodMessage_d5deea:hover {
+    background: linear-gradient(var(--background-message-automod-hover), var(--background-message-automod-hover));
+    background-size: calc((1 - var(--chat-bubble)) * 1px);
+}
+
+.groupStart_d5deea.cozyMessage_d5deea>.contents_ec86aa .markup_d6076c code,
+.cozyMessage_d5deea:not(.groupStart_d5deea)>.contents_ec86aa>.markup_d6076c:not(:empty, .searchResultsWrap_c2b47d *) code {
+    background: linear-gradient(var(--chat-bubble-code-background-color), var(--chat-bubble-code-background-color));
+    background-color: var(--background-secondary);
+    background-size: calc(var(--chat-bubble) * 1px);
+}
+
+.markup_d6076c blockquote, .markup_d6076c pre {
+    max-width: 100%;
+}
