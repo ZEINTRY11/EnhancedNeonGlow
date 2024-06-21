@@ -52,6 +52,11 @@ There are variante options of colors! Color options:
     Magenta: 300
     Pink: 330
 
+To change the color:
+1. Go to Betterdiscord Themes tab
+2. Click on the pen button on the `EnhancedNeonGlow` theme
+3. Search for --main-color-hue and change it for the color that you want
+
 ## Credits
 Created by ZEIN_TRY
 <p align="center">
