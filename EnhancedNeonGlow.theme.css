@@ -58,6 +58,9 @@
     --neon-700: hsl(var(--main-color-hue), 100%, 50%);
     --neon-800: hsl(var(--main-color-hue), 100%, 40%);
     --neon-900: hsl(var(--main-color-hue), 100%, 30%);
+    --brand-500: var(--neon-600);
+    --brand-560: var(--neon-700)
+
 }
 /* top corner title */
 [class^='wordmarkWindows'] {
@@ -297,4 +300,9 @@ Debuggerz1 - Math
 
 .winButton_a934d8:active {
     transform: scale(0.9);
+}
+
+.bd-button-filled.bd-button-color-brand {
+    box-shadow: 0 0 50px var(--neon-500) !important;
+    background-color: var(--brand-500) !important;
 }
