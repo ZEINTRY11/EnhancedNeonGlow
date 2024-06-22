@@ -26,7 +26,8 @@
     Magenta: 300
     Pink: 330
 */
-    
+    --status-danger: var(--neon-light);
+    --status-danger-background: var(--neon-light);
     --neon-dark: hsl(var(--main-color-hue), 100%, 40%);
     --neon-light: hsl(var(--main-color-hue), 100%, 60%);
     
@@ -165,6 +166,13 @@
 .button-1YfofB.buttonColor-7qQbGO:hover, .button-1YfofB .buttonColor-7qQbGO:hover {
     background-color: var(--neon-500);
 }
+.childWrapper_f90abb {
+    background: var(--neon-dark) !important;
+}
+
+.childWrapper_f90abb:hover {
+    background: var(--neon-dark) !important;
+}
 
 /* Credits for chat bubble
 TheCommieAxolotl - Base code
@@ -270,12 +278,12 @@ Debuggerz1 - Math
     max-width: 100%;
 }
 
-.winButton_a934d8, button, div[role="button"], a, .wrapper_f90abb {
+.winButton_a934d8, button, div[role="button"], a, .wrapper_f90abb, .memberInner_a31c43 {
     transition: all 0.3s ease;
     opacity: 0.7;
 }
 
-.winButton_a934d8:hover, button:hover, div[role="button"]:hover, a:hover, .wrapper_f90abb:hover {
+.winButton_a934d8:hover, button:hover, div[role="button"]:hover, a:hover, .wrapper_f90abb:hover, .memberInner_a31c43:hover {
     background: none;
     opacity: 1;
     transform: scale(1.1);
