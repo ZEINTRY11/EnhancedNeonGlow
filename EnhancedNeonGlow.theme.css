@@ -8,8 +8,9 @@
  */
 
  :root {
+     --corner-text: "EnhancedNeonGlow";
     /* Main theme color - change this to switch themes */
-    --main-color-hue: 190; 
+    --main-color-hue: 0; 
 /*  Color options:
     Red: 0
     Orange: 30
@@ -26,7 +27,7 @@
     Pink: 330
 */
     
-    --neon-dark: hsl(var(--main-color-hue), 100%, 27%);
+    --neon-dark: hsl(var(--main-color-hue), 100%, 40%);
     --neon-light: hsl(var(--main-color-hue), 100%, 60%);
     
     --background-primary: ;
@@ -34,6 +35,7 @@
     --background-tertiary: ;
     --background-secondary-alt: ;
     --bg-overlay-2: ;
+    --bg-overlay-chat: ;
     
     --text-normal: #ffffff;
     --text-muted: #888888;
@@ -56,9 +58,26 @@
     --neon-800: hsl(var(--main-color-hue), 100%, 40%);
     --neon-900: hsl(var(--main-color-hue), 100%, 30%);
 }
-
-/* Rest of your CSS remains the same, just replace specific color references with variables */
-
+/* top corner title */
+[class^='wordmarkWindows'] {
+	padding: 4px 12px;
+}
+[class^='wordmarkWindows'] > svg {
+	display: none;
+}
+[class^='wordmarkWindows']::after {
+	content: var(--corner-text);
+	display: block;
+	position: relative;
+	height: 16px;
+	line-height: 16px;
+	font-family: var(--font);
+	font-size: 13px;
+	font-weight: 900;
+	color: var(--text-5);
+	transform: scaleX(1.2);
+	margin-left: 6px;
+}
 .appMount_ea7e65::before {
     content: '';
     position: absolute;
@@ -68,7 +87,7 @@
     bottom: 0;
     background: url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg') no-repeat center center fixed;
     background-size: cover;
-    filter: blur(2px);
+    filter: blur(5px);
     z-index: -1;
 }
 
@@ -106,7 +125,22 @@
     transform: translateY(-2px);
     transition: transform 0.3s ease;
 }
-
+.theme-dark{
+    --text-normal: var(--neon-light);
+}
+.menu_d90b3d {
+    background: none;
+    border: calc(1px * var(--chat-bubble)) solid var(--neon-light);
+}
+.item_d90b3d {
+    background-color: blury;
+    border: calc(1px * var(--chat-bubble)) solid var(--neon-light);
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.item_d90b3d:hover {
+    background-color: var(--neon-light);
+}
 * {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
