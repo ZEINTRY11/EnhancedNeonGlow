@@ -306,3 +306,6 @@ Debuggerz1 - Math
     box-shadow: 0 0 50px var(--neon-500) !important;
     background-color: var(--brand-500) !important;
 }
+::-webkit-scrollbar-thumb {
+    box-shadow: 0 0 20px var(--brand-560);
+}
