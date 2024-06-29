@@ -59,8 +59,8 @@
     --neon-800: hsl(var(--main-color-hue), 100%, 40%);
     --neon-900: hsl(var(--main-color-hue), 100%, 30%);
     --brand-500: var(--neon-600);
-    --brand-560: var(--neon-700)
-
+    --brand-560: var(--neon-700);
+    --brand-530: var(--neon-dark)
 }
 /* top corner title */
 [class^='wordmarkWindows'] {
