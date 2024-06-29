@@ -291,7 +291,7 @@ Debuggerz1 - Math
 .winButton_a934d8:hover, button:hover, svg:hover, a:hover, .wrapper_f90abb:hover, .memberInner_a31c43:hover {
     background: none;
     opacity: 1;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .winButton_a934d8:hover svg{
